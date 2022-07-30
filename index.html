@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Lexend Deca' rel='stylesheet'>
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  
+</head>
+
+<body>
+
+  <div class="main-container">
+
+      <picture>
+          <source media="(max-width:992px)" srcset="images/image-header-mobile.jpg">
+          <source media="(min-width:992px)" srcset="images/image-header-desktop.jpg">
+          <img src="images/image-header-mobile.jpg" alt="Header image">
+      </picture>
+
+    <div class="text-container">
+
+      <h1>Get <span id="h1-accent">insights</span> that help your business grow.</h1>
+
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer
+      experience, and overall efficiency.</p>
+
+      <div class="list-container">
+
+        <ul>
+          <li class="li-header">10k+</li>
+          <li class="li-text">companies</li>
+        </ul>
+        <ul>
+          <li class="li-header">314 </li>
+          <li class="li-text">templates</li>
+        </ul>
+        <ul>
+          <li class="li-header">12m+</li>
+          <li class="li-text">queries</li>
+        </ul>
+
+      </div>  <!-- end of list-container -->
+
+    </div> <!-- end of text-container -->
+
+  </div> <!-- end of main-container -->
+
+  <div class="attribution" style=display:none>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.frontendmentor.io/profile/snuwpl">snuwpl</a>.
+  </div>
+
+</body>
+</html>
